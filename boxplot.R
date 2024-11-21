@@ -20,9 +20,9 @@ e2 <- ggplot(data, aes(x = Response, y = TMB)) +
   stat_compare_means(comparisons =compare )+
   xlab("") + ylab("TMB (mutations/Mb)") +
   theme(axis.line = element_line(linewidth = 1, colour = "black")) +
-  theme(axis.text.x = element_text(size = 12, color = "black", face = "bold")) +
-  theme(axis.text.y = element_text(size = 12, color = "black", face = "bold")) +
-  theme(axis.title.y = element_text(face = "bold", size = 12, color = "black")) +
+  theme(axis.text.x = element_text(size = 12, color = "black")) +
+  theme(axis.text.y = element_text(size = 12, color = "black")) +
+  theme(axis.title.y = element_text(size = 12, color = "black")) +
   scale_color_manual(values = c("CRPR" = "#F0C849", "SDPD" = "#4F7CAC")) +  
   guides(fill = FALSE)
 
