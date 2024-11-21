@@ -1,4 +1,1 @@
-OncoPrint
-KM curve
-forest plot
-box plot
+OncoPrint, KM curve, forest plot, box plot
