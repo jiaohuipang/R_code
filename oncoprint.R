@@ -1,3 +1,10 @@
+###############################################################################################
+###############################################################################################
+# The Figures might have been adjusted afterwards for publishing using external software      #
+# however without altering the representation of the data.                                    #
+###############################################################################################
+###############################################################################################
+
 library(RColorBrewer)
 library(stringr)
 library(ComplexHeatmap)
